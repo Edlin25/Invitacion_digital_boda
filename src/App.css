@@ -3,3 +3,19 @@
   margin: 0;
   padding: 0;
 }
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  margin: 0px;
+}
+
+#root {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+  background-color:rgb(254,247,241);
+}

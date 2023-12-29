@@ -11,9 +11,9 @@ function Navbar() {
     <nav className="navbar">
         <div className="navbar-container">
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <li className="nav-item">
-                    <Link to="/" className="nav-links">
-                    Katy&MinHo
+                <li className="nav-item" >
+                    <Link to="/" className="nav-links" id="letters-home">
+                    K&M
                     </Link>
                 </li>
                 <li className="nav-item">
